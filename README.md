@@ -1,1 +1,2 @@
-### App Express React GraphQL de gestion de livres
+### App Express React GraphQL MongoDB Mongoose 
+#### destinée à la gestion de livres
