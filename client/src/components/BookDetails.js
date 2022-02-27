@@ -20,10 +20,10 @@ const BookDetails = ({ bookId }) => {
 
                     return (
                          <div>
-                         <h2>TITRE : { data.book.name }</h2>
-                         <p>GENRE : { data.book.genre }</p>
-                         <p>AUTEUR : { data.book.author.name }</p>
-                         <p>TOUS LES TITRES DU MEME AUTEUR :</p>
+                         <h2>Title : { data.book.name }</h2>
+                         <p>Genre : { data.book.genre }</p>
+                         <p>Author : { data.book.author.name }</p>
+                         <p>All books by this author :</p>
                          <ul className="other-books">
                              { data.book.author.books.map(item => {
                                  return <li key={item.id}>{ item.name }</li>

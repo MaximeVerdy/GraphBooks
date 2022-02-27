@@ -16,7 +16,7 @@ function App() {
 
       <div id="main">
 
-        <h1>BIBLIOTHEQUE</h1>
+        <h1>GraphBook</h1>
 
         <BookList />
         <AddBook/>

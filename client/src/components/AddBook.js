@@ -49,17 +49,17 @@ function AddBook() {
 
           <form id="add-book" onSubmit={handleSub} ref={formRef}>
                <div className="field">
-                    <label>Book name:</label>
+                    <label>Name :</label>
                     <input type="text" ref={bookName} />
                </div>
                <div className="field">
-                    <label>Genre:</label>
+                    <label>Genre :</label>
                     <input type="text" ref={genre} />
                </div>
                <div className="field">
-                    <label>Author:</label>
+                    <label>Author :</label>
                     <select ref={authorSelected}>
-                         <option>Select author</option>
+                         <option>Select one</option>
                          {displayAuthors()}
                     </select>
                </div>
